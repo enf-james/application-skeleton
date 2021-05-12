@@ -1,0 +1,29 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "face453670e41cfd7243a510db1d00fa",
+    "packages": [
+        {
+            "name": "enf-james/framework",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:enf-james/framework.git",
+                "reference": "2fa9c8cd75b719d1ea9c203127808aacf8700043"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
