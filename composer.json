@@ -10,19 +10,12 @@
     ],
     "repositories": [
         {
-            "type": "package",
-            "package": {
-              "name": "enf-james/framework",
-              "version": "1.0.1",
-              "source": {
-                "url": "git@github.com:enf-james/framework.git",
-                "type": "git",
-                "reference": "2fa9c8cd75b719d1ea9c203127808aacf8700043"
-              }
-            }
+            "type": "vcs",
+            "url": "git@github.com:enf-james/framework.git"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "enf-james/framework": "^1.0"
+        "enf-james/framework": "dev-master"
     }
 }
