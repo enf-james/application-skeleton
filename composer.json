@@ -17,5 +17,8 @@
     "minimum-stability": "dev",
     "require": {
         "enf-james/framework": "dev-master"
+    },
+    "psr-4": {
+        "DemoApp\\": "src/"
     }
 }
