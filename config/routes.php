@@ -1,7 +1,5 @@
 <?php
 
-use Demo\Framework\Routing\RouteGroup;
-use Demo\Framework\Routing\Router;
 
 
 return function(Router $router) {

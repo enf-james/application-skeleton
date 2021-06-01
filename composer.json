@@ -18,7 +18,9 @@
     "require": {
         "enf-james/framework": "dev-master"
     },
-    "psr-4": {
-        "DemoApp\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "DemoApp\\": "src/"
+        }
     }
 }

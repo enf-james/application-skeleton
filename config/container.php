@@ -1,4 +1,5 @@
 <?php
+
 use function DI\autowire;
 use function DI\create;
 use function DI\factory;
@@ -16,4 +17,6 @@ return [
     \Psr\Http\Message\StreamFactoryInterface::class => get(\Nyholm\Psr7\Factory\Psr17Factory::class),
     \Psr\Http\Message\UploadedFileFactoryInterface::class => get(\Nyholm\Psr7\Factory\Psr17Factory::class),
     SessionHandlerInterface::class => get(SessionHandler::class),
+    \ENF\James\Framework\Routing\RouteCollectorInterface::class => get(ENF\James\Framework\Routing\RouteCollector::class),
+
 ];
