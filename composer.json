@@ -16,6 +16,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "symfony/var-dumper": "6.0.x-dev",
         "enf-james/framework": "dev-master"
     },
     "autoload": {

@@ -1,14 +1,24 @@
 <?php
 
+use ENF\James\Framework\Routing\RouteCollector;
+use ENF\James\Framework\Routing\RouteGroup;
 
+return function(RouteCollector $rc) {
+    $rc->setNamePrefix('frontend.')
+        ->setPathPrefix('/zh');
 
-return function(Router $router) {
-    $router->get('/', 'Demo\App\Controllers\PageController::home')
+    $rc->get('/', 'DemoApp\Frontend\Controller\ArticleController::home')
         ->setName('home');
 
-    $router->get('/about', 'Demo\App\Controllers\PageController::about')
+    $rc->get('/about', 'DemoApp\Frontend\Controller\ArticleController::about')
         ->setName('about');
 
-    $router->post('/receive-data', 'Demo\App\Controllers\PageController::receiveData')->setName('receive-data');
-
+    $rc->group(function(RouteGroup $group){
+        $group->get('/{id}', 'DemoApp\Frontend\Controller\ArticleController::show')
+            ->setName('show');
+        $group->get('/{id}/edit', 'DemoApp\Frontend\Controller\ArticleController::edit')
+            ->setName('edit');
+    })
+    ->setNamePrefix('article.')
+    ->setPathPrefix('/article');
 };
