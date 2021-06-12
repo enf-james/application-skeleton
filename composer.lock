@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:enf-james/framework.git",
-                "reference": "4b70754d79a7abc4c40fcaf381c479e834fea2b4"
+                "reference": "9196993ab26688a2f336eaf82d123a8328ed5946"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enf-james/framework/zipball/4b70754d79a7abc4c40fcaf381c479e834fea2b4",
-                "reference": "4b70754d79a7abc4c40fcaf381c479e834fea2b4",
+                "url": "https://api.github.com/repos/enf-james/framework/zipball/9196993ab26688a2f336eaf82d123a8328ed5946",
+                "reference": "9196993ab26688a2f336eaf82d123a8328ed5946",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "source": "https://github.com/enf-james/framework/tree/master",
                 "issues": "https://github.com/enf-james/framework/issues"
             },
-            "time": "2021-06-03T12:17:49+00:00"
+            "time": "2021-06-12T13:46:05+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -320,16 +320,16 @@
         },
         {
             "name": "php-di/php-di",
-            "version": "6.3.3",
+            "version": "6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PHP-DI.git",
-                "reference": "da8e476cafc8011477e2ec9fd2e4706947758af2"
+                "reference": "f53bcba06ab31b18e911b77c039377f4ccd1f7a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/da8e476cafc8011477e2ec9fd2e4706947758af2",
-                "reference": "da8e476cafc8011477e2ec9fd2e4706947758af2",
+                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/f53bcba06ab31b18e911b77c039377f4ccd1f7a5",
+                "reference": "f53bcba06ab31b18e911b77c039377f4ccd1f7a5",
                 "shasum": ""
             },
             "require": {
@@ -380,7 +380,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-DI/PHP-DI/issues",
-                "source": "https://github.com/PHP-DI/PHP-DI/tree/6.3.3"
+                "source": "https://github.com/PHP-DI/PHP-DI/tree/6.3.4"
             },
             "funding": [
                 {
@@ -392,7 +392,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-01T16:26:47+00:00"
+            "time": "2021-06-10T08:04:48+00:00"
         },
         {
             "name": "php-di/phpdoc-reader",
@@ -851,12 +851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "39e88e59113fdfa12bb182e88f0d308a014ddc95"
+                "reference": "54454cd16cd97294859adbc6062a0dca0d1b4adc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/39e88e59113fdfa12bb182e88f0d308a014ddc95",
-                "reference": "39e88e59113fdfa12bb182e88f0d308a014ddc95",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/54454cd16cd97294859adbc6062a0dca0d1b4adc",
+                "reference": "54454cd16cd97294859adbc6062a0dca0d1b4adc",
                 "shasum": ""
             },
             "require": {
@@ -871,6 +871,7 @@
                 "ext-iconv": "*",
                 "symfony/console": "^5.4|^6.0",
                 "symfony/process": "^5.4|^6.0",
+                "symfony/uid": "^5.4|^6.0",
                 "twig/twig": "^2.13|^3.0.4"
             },
             "suggest": {
@@ -930,7 +931,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-02T16:16:25+00:00"
+            "time": "2021-06-12T10:17:43+00:00"
         }
     ],
     "packages-dev": [],
