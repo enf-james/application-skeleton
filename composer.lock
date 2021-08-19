@@ -11,13 +11,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:enf-james/framework.git",
-                "reference": "3bf3af39e9e3010a06b2dbe04c93b8dab4224e8a"
+                "url": "https://github.com/enf-james/framework.git",
+                "reference": "a257004e72c49830d3eadc62342f65ecf48d6df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/enf-james/framework/zipball/3bf3af39e9e3010a06b2dbe04c93b8dab4224e8a",
-                "reference": "3bf3af39e9e3010a06b2dbe04c93b8dab4224e8a",
+                "url": "https://api.github.com/repos/enf-james/framework/zipball/a257004e72c49830d3eadc62342f65ecf48d6df9",
+                "reference": "a257004e72c49830d3eadc62342f65ecf48d6df9",
                 "shasum": ""
             },
             "require": {
@@ -35,10 +35,7 @@
             "autoload": {
                 "psr-4": {
                     "ENF\\James\\Framework\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
+                }
             },
             "authors": [
                 {
@@ -51,7 +48,7 @@
                 "source": "https://github.com/enf-james/framework/tree/master",
                 "issues": "https://github.com/enf-james/framework/issues"
             },
-            "time": "2021-06-13T13:17:48+00:00"
+            "time": "2021-08-18T15:22:05+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -1067,12 +1064,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "862552bffd28ad1953c548499eda2298d6dfda95"
+                "reference": "a282e516d49e0c606d073d6ab25bbe31140a5883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/862552bffd28ad1953c548499eda2298d6dfda95",
-                "reference": "862552bffd28ad1953c548499eda2298d6dfda95",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/a282e516d49e0c606d073d6ab25bbe31140a5883",
+                "reference": "a282e516d49e0c606d073d6ab25bbe31140a5883",
                 "shasum": ""
             },
             "require": {
@@ -1147,7 +1144,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-13T07:43:57+00:00"
+            "time": "2021-08-17T15:35:52+00:00"
         }
     ],
     "packages-dev": [],
