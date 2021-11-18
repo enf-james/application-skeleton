@@ -1,0 +1,59 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "author": "James",
+  "license": "ISC",
+  "description": "Demo",
+  "dependencies": {
+    "@primer/css": "^17.11.0",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.1",
+    "core-js": "^3.19.1",
+    "lodash": "^4.17.21",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.3.0",
+    "source-map-js": "^0.6.2",
+    "svelte": "^3.44.1",
+    "svelte-loader": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "html-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "postcss-loader": "^6.2.0",
+    "sass": "^1.39.0",
+    "style-loader": "^3.2.1",
+    "svelte-preprocess": "^4.9.8",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.4.0",
+    "webpack-manifest-plugin": "^4.0.2"
+  },
+  "scripts": {
+    "build:dev": "webpack build --mode development --node-env development --progress --watch",
+    "build:prod": "webpack build --mode production --node-env production --progress",
+    "serve": "webpack serve --mode development --node-env development --progress"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": "3.19.1"
+        }
+      ],
+      [
+        "@babel/preset-react"
+      ]
+    ]
+  }
+}
