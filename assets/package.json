@@ -40,7 +40,8 @@
   "scripts": {
     "build:dev": "webpack build --mode development --node-env development --progress --watch",
     "build:prod": "webpack build --mode production --node-env production --progress",
-    "serve": "webpack serve --mode development --node-env development --progress"
+    "serve": "webpack serve --mode development --node-env development --progress",
+    "build:css": "npx sass -w src/ui-framework:dist/ui-framework"
   },
   "babel": {
     "presets": [

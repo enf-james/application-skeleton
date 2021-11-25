@@ -1,0 +1,29 @@
+.dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--body-color);
+    background-color: var(--body-bg);
+    border: 1px solid gray;
+    padding: 1rem;
+    min-height: 10rem;
+    min-width: 10rem;
+    max-width: 95vw;
+    overflow-x: hidden;
+    transition: opacity .3s ease-out, transform .3s ease-out;
+    box-shadow: 0.25rem 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .backdrop {
+    display: block;
+    content: '';
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
