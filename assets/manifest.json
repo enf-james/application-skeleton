@@ -1,4 +1,6 @@
 {
   "examples/theme.js": "examples/theme.js",
-  "theme.js.map": "examples/theme.js.map"
+  "ui-framework/index.js": "ui-framework/index.js",
+  "theme.js.map": "examples/theme.js.map",
+  "index.js.map": "ui-framework/index.js.map"
 }

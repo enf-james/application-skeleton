@@ -57,6 +57,24 @@
     padding-bottom: #{$value};
   }
 }
+
+@each $size, $value in $spacers {
+  .m-#{$size} {
+    margin: #{$value};
+  }
+}
+@each $size, $value in $spacers {
+  .mx-#{$size} {
+    margin-left: #{$value};
+    margin-right: #{$value};
+  }
+}
+@each $size, $value in $spacers {
+  .my-#{$size} {
+    margin-top: #{$value};
+    margin-bottom: #{$value};
+  }
+}
   
   
   // Layout

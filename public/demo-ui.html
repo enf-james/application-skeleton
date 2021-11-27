@@ -57,11 +57,25 @@
         </section>
         <section id="components">
             <h3>Buttons</h3>
-            <a role="button">Link</a>
+            <div class="flex">
+                <label>Outline Buttons</label>
+                <button type="button" id="logBtn">Default</button>
+                <button type="button" class="border-red">Red</button>
+                <button type="button" class="border-green">Green</button>
+                <button type="button" class="border-blue">Blue</button>
+            </div>
+            <div class="flex my-3">
+                <label>Filled Buttons</label>
+                <button type="button" id="logBtn">Default</button>
+                <button type="button" class="bg-red text-white">Red</button>
+                <button type="button" class="bg-green text-white">Green</button>
+                <button type="button" class="bg-blue text-white">Blue</button>
+            </div>
             <button type="button" class="bg-red text-white">Button</button>
+            <a role="button">Link</a>
             <a href="">百度</a>
             <button type="button" role="link">Google</button>
-            <button type="button" onclick="showModal()">Show Dialog</button>
+            <button type="button" onclick="d = new Dialog(); d.open();">Show Dialog</button>
             <enf-dialog></enf-dialog>
 
             <h3>Details</h3>
@@ -77,6 +91,6 @@
             Footer
         </footer>
     </div>
-    <script src="assets/dist/pages/about.js"></script>
+    <script src="assets/dist/ui-framework/index.js"></script>
 </body>
 </html>

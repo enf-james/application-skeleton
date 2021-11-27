@@ -35,8 +35,9 @@ class EntryBuilder
 
 let entries = new EntryBuilder()
     // .addEntry(`${distDir}/examples`, `${srcDir}/examples`, '.scss') 
-    .addEntry(`${distDir}/examples`, `${srcDir}/examples`, '.js') 
     // .addEntry(`${distDir}/examples`, `${srcDir}/examples`, '.css') 
+    .addEntry(`${distDir}/examples`, `${srcDir}/examples`, '.js') 
+    .addEntry(`${distDir}/ui-framework`, `${srcDir}/ui-framework`, '.js') 
     .build();
 
 

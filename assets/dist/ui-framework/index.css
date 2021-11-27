@@ -6,9 +6,7 @@
   --link-color: #0969da;
   --button-text-color: #24292f;
   --button-bg-color: #f6f8fa;
-  --button-bg-color-hover: rgba(217, 231, 248, 0.5);
-  --button-border-color: rgba(27,31,36,0.15);
-  --button-border-color-hover: #99bce8;
+  --button-border-color: #e3e3e3;
 }
 
 *,
@@ -286,6 +284,90 @@ h6 {
   padding-bottom: 2rem;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-3 {
+  margin: 1rem;
+}
+
+.m-4 {
+  margin: 1.5rem;
+}
+
+.m-5 {
+  margin: 2rem;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-4 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-5 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-5 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 100px 200px 150px;
@@ -298,20 +380,43 @@ button {
   font-size: 1rem;
   color: var(--button-text-color);
   background-color: var(--button-bg-color);
-  border-width: 1px;
-  border-style: solid;
   border-color: var(--button-border-color);
-  border-radius: 0.25rem;
+  border-radius: 6px;
   padding: 3px 16px;
-  transition-property: color, background-color, border-color;
-  transition-duration: 0.1s;
-  transition-timing-function: ease-in-out;
+  cursor: pointer;
 }
 
-button:hover {
-  background-color: var(--button-bg-color-hover);
-  border-color: var(--button-border-color-hover);
-  text-decoration: none;
+[role=button] {
+  user-select: none;
+}
+
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--body-color);
+  background-color: var(--body-bg);
+  border: 1px solid gray;
+  padding: 1rem;
+  min-height: 126px;
+  min-width: 270px;
+  max-width: 95vw;
+  overflow-x: hidden;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  box-shadow: 0.25rem 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.backdrop {
+  display: block;
+  content: "";
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
